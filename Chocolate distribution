@@ -1,0 +1,14 @@
+def order_chocolate(n,m):
+if(m!=0):
+if(n%m==0):
+return 0
+else:
+c=n//m
+c+=1
+result=(c*m)-n
+return result
+else:
+return "Invalid"
+chclts = int(input())
+stdnts = int(input())
+print(order_chocolate(chclts,stdnts))
