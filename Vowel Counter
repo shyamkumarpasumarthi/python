@@ -1,0 +1,28 @@
+def count_vowels(s):
+s=input()
+flag=0
+for a in s:
+if('a' in a):
+flag+=1
+if('e' in a):
+flag+=1
+if('i' in a):
+flag+=1
+if('o' in a):
+flag+=1
+if('u' in a):
+flag+=1
+if('A' in a):
+flag+=1
+if('E' in a):
+flag+=1
+if('I' in a):
+flag+=1
+if('O' in a):
+flag+=1
+if('U' in a):
+flag+=1
+if(flag==0):
+print('0')
+else:
+print(flag)
