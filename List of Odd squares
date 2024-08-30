@@ -1,0 +1,15 @@
+def odd_checker(lst):
+res_lst=[]
+for i in lst:
+if i%2==1:
+res_lst.append(i)
+return res_lst
+def square_list(lst):
+List=[]
+element=0
+for i in lst:
+element=i*i
+List.append(element)
+return List
+input_lst = list(map(int,input().split(",")))
+print(odd_checker(square_list(input_lst)))
