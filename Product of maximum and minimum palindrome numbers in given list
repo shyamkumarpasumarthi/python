@@ -1,0 +1,15 @@
+input_list=list(map(int,input().split(" ")))
+result=[]
+for i in input_list:
+n=i
+rev=0;
+while n>0:
+rem=n%10
+rev=rev*10+rem
+n=n//10
+if rev==i:
+result.append(i)
+if(len(result)==0):
+print('0')
+else:
+print(max(result)*min(result))
