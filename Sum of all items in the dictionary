@@ -1,0 +1,10 @@
+a=int(input('size:'))
+list=[]
+for i in range(1,a+1,1):
+b=input('key:')
+c=int(input('value:'))
+list.append(c)
+sum=0
+for i in list:
+sum+=i
+print(f"Sum:{sum}")
