@@ -1,0 +1,4 @@
+x=int(input("x: "))
+y=int(input("y: "))
+#print(x, 'is not', y,'True')
+print(f"{x} is not {y}",bool (x is not y))
